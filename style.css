@@ -14,7 +14,11 @@
     align-items: center;
     justify-content: center;
     background-color: rgb(115, 128, 244);
+}
 
+main::selection{
+    background-color: aquamarine;
+    color: #000000;
 }
 .basliq {
     border: 4px solid rgb(250, 79, 0);  
@@ -36,7 +40,12 @@
     margin: 0; 
     margin-top: -60px;
 }
-
+.ilkh2::before{
+    content: "*";
+}
+.ilkh2::first-line{
+    font-weight:900;
+}
 .ilk {
     border: 2px solid rgb(250, 79, 0); 
     width: 1100px;
@@ -56,6 +65,9 @@
     padding: 0; 
     margin: 0; 
     margin-top: -240px;
+}
+.h21::before{
+    content: "*";
 }
 .kart1{
      border: 2px solid rgb(250, 79, 0); 
@@ -162,6 +174,9 @@
     margin: 0; 
     margin-top: -410px;
 }
+.h22::before{
+    content: "*";
+}
 .uc{ border: 2px solid rgb(250, 79, 0);  
     width: 1100px;
     height: 300px;
@@ -180,6 +195,9 @@
     padding: 0; 
     margin: 0; 
     margin-top: -240px;
+}
+.h23::before{
+    content: "*";
 }
 .dord{ border: 2px solid rgb(250, 79, 0);  
     width: 1100px;
@@ -200,6 +218,9 @@
     margin:0;
     margin-top:-250px;
 }
+.h24::before{
+    content: "*";
+}
 .bes{border: 2px solid rgb(250, 79, 0); 
     width: 1100px;
     height: 300px;
@@ -219,6 +240,9 @@
     margin:0;
     margin-top:-245px ;
 }
+.h25::before{
+    content: "*";
+}
 .my{
     position: fixed;
     border: 2px solid rgb(250, 79, 0);  
@@ -237,5 +261,9 @@
      width: 400px;
      height: 100px;    
      margin-left: 290px;
+     
+}
+.h1::before{
+    content: "*";
 }
 
