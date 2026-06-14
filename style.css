@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    margin:0;
+   
+
+}
+.basliq {
+    border: 4px solid rgb(250, 79, 0);  
+    width: 1100px;
+    height: 100px;                  
+    padding: 30px;
+    margin: 20px;                       
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;            
+    position: relative;     
+    top: 120px; 
+    left:47px;                 
+}
+.ilkh2{
+    font-size: larger;
+    padding: 0; 
+    margin: 0; 
+    margin-top: -60px;
+}
+.main {
+    border: 2px solid rgb(250, 79, 0);   
+    width: 1250px;
+    height: 2000px;
+    padding: 30px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.ilk {
+    border: 2px solid rgb(250, 79, 0); 
+    width: 1100px;
+    height: 300px;
+    padding: 30px;
+    position: absolute;
+    top:254px;
+    left:67px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+}
+.h21 {
+    font-size: larger;
+    padding: 0; 
+    margin: 0; 
+    margin-top: -240px;
+}
+.kart1{
+     border: 2px solid rgb(250, 79, 0); 
+    width: 300px;
+    height: 100px;
+    padding: 30px;
+    position: absolute;
+    top:424px;
+    left:42px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+.karth{
+    font-size: larger;
+    padding: 0; 
+    margin: 0; 
+    margin-top: -78px;
+    margin-left: -240px;
+}
+.kart2{
+    border: 2px solid rgb(250, 79, 0); 
+    width: 300px;
+    height: 100px;
+    padding: 30px;
+    position: absolute;
+    top:535px;
+    left:42px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+}
+.karth2{
+    font-size: larger;
+    padding: 0; 
+    margin: 0; 
+    margin-top: -78px;
+    margin-left: -210px;
+}
+.kart3{
+    border: 2px solid rgb(250, 79, 0); 
+    width: 300px;
+    height: 100px;
+    padding: 30px;
+    position: absolute;
+    top:640px;
+    left:42px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+
+}
+.karth3{
+    font-size: larger;
+    padding: 0; 
+    margin: 0; 
+    margin-top: -78px;
+    margin-left: -210px;
+}
+.kart4{
+    border: 2px solid rgb(250, 79, 0); 
+    width: 300px;
+    height: 100px;
+    padding: 30px;
+    position: absolute;
+    top:424px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+}
+.karth4{
+    font-size: larger;
+    padding: 0; 
+    margin: 0; 
+    margin-top: -78px;
+    margin-right: -410px;
+}
+
+.iki {
+    border: 2px solid rgb(250, 79, 0);  
+    width: 1100px;
+    height: 300px;
+    padding: 240px;
+    position: absolute;
+    top: 580px;
+    left: 67px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+}
+.h22 {
+  font-size: larger;
+    padding: 0; 
+    margin: 0; 
+    margin-top: -410px;
+}
+.uc{ border: 2px solid rgb(250, 79, 0);  
+    width: 1100px;
+    height: 300px;
+    padding: 50px;
+    position: absolute;
+    top: 1080px;
+    left: 67px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.h23{
+    font-size: larger;
+    padding: 0; 
+    margin: 0; 
+    margin-top: -240px;
+}
+.dord{ border: 2px solid rgb(250, 79, 0);  
+    width: 1100px;
+    height: 300px;
+    padding: 60px;
+    position: absolute;
+    top: 1400px;
+    left: 68px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.h24{
+    font-size: larger;
+    padding: 42px;
+    margin:0;
+    margin-top:-250px;
+}
+.bes{border: 2px solid rgb(250, 79, 0); 
+    width: 1100px;
+    height: 300px;
+    padding: 70px;
+    position: absolute;
+    top: 1720px;
+    left: 68px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.h25{
+    font-size: larger;
+    padding: 52px;
+    margin:0;
+    margin-top:-245px ;
+}
+.my{
+    position: fixed;
+    border: 2px solid rgb(250, 79, 0);  
+    width: 400px;
+    height: 100px;
+    padding: 30px;
+    top:2900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.h1{ font-size: large;
+     padding: 3px;
+     width: 400px;
+     height: 100px;    
+}
+
