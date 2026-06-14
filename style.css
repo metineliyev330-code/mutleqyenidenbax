@@ -3,9 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
-.body{
-    margin:0;
-   
+.main {
+    border: 2px solid rgb(250, 79, 0);   
+    width: 1190px;
+    height: 2000px;
+    padding: 30px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(115, 128, 244);
 
 }
 .basliq {
@@ -28,17 +36,7 @@
     margin: 0; 
     margin-top: -60px;
 }
-.main {
-    border: 2px solid rgb(250, 79, 0);   
-    width: 1250px;
-    height: 2000px;
-    padding: 30px;
-    margin: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
+
 .ilk {
     border: 2px solid rgb(250, 79, 0); 
     width: 1100px;
@@ -50,7 +48,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;   
+    justify-content: center; 
+    background-color: aqua;
 }
 .h21 {
     font-size: larger;
@@ -70,6 +69,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center; 
+    background-color: aliceblue;
 }
 .karth{
     font-size: larger;
@@ -89,7 +89,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;  
+    justify-content: center; 
+     background-color: aliceblue;
 }
 .karth2{
     font-size: larger;
@@ -110,7 +111,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;  
-
+    background-color: aliceblue;
 }
 .karth3{
     font-size: larger;
@@ -130,6 +131,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;  
+    background-color: aliceblue;
 }
 .karth4{
     font-size: larger;
@@ -151,6 +153,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;   
+    z-index:10px ;
+    
 }
 .h22 {
   font-size: larger;
@@ -169,6 +173,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: aqua;
 }
 .h23{
     font-size: larger;
@@ -187,6 +192,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: aqua;
 }
 .h24{
     font-size: larger;
@@ -205,6 +211,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: aqua;
 }
 .h25{
     font-size: larger;
@@ -215,10 +222,11 @@
 .my{
     position: fixed;
     border: 2px solid rgb(250, 79, 0);  
-    width: 400px;
-    height: 100px;
-    padding: 30px;
-    top:2900px;
+    width: 40px;
+    height: 10px;
+    left: 200px;
+    padding: 70px;
+    top:300px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -228,5 +236,6 @@
      padding: 3px;
      width: 400px;
      height: 100px;    
+     margin-left: 290px;
 }
 
