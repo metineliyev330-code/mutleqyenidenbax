@@ -75,7 +75,7 @@ main::selection{
     height: 100px;
     padding: 30px;
     position: absolute;
-    top:424px;
+    top:84px;
     left:42px;
     display: flex;
     flex-direction: column;
@@ -90,19 +90,22 @@ main::selection{
     margin-top: -78px;
     margin-left: -240px;
 }
+.karth1::before{
+    content: "*";
+}
 .kart2{
     border: 2px solid rgb(250, 79, 0); 
     width: 300px;
     height: 100px;
     padding: 30px;
     position: absolute;
-    top:535px;
-    left:42px;
+    top:84px;
+    left:349px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center; 
-     background-color: aliceblue;
+    background-color: aliceblue;
 }
 .karth2{
     font-size: larger;
@@ -111,14 +114,17 @@ main::selection{
     margin-top: -78px;
     margin-left: -210px;
 }
+.karth2::before{
+    content: "*";
+}
 .kart3{
     border: 2px solid rgb(250, 79, 0); 
     width: 300px;
     height: 100px;
     padding: 30px;
     position: absolute;
-    top:640px;
-    left:42px;
+    top:84px;
+    left:656px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -132,13 +138,17 @@ main::selection{
     margin-top: -78px;
     margin-left: -210px;
 }
+.karth3::before{
+    content: "*";
+}
 .kart4{
     border: 2px solid rgb(250, 79, 0); 
     width: 300px;
     height: 100px;
     padding: 30px;
     position: absolute;
-    top:424px;
+    top:200px;
+    left: 42px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -149,10 +159,61 @@ main::selection{
     font-size: larger;
     padding: 0; 
     margin: 0; 
-    margin-top: -78px;
-    margin-right: -410px;
+    margin-top:-67px;
+    padding-right:5cm;
+}
+.karth4::before{
+    content: "*";
 }
 
+.kart5{
+     border: 2px solid rgb(250, 79, 0); 
+    width: 300px;
+    height: 100px;
+    padding: 30px;
+    position: absolute;
+    top:200px;
+    left:349px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+    background-color: aliceblue;
+}
+.karth5::before{
+    content: "*";
+}
+.karth5{
+    font-size: larger;
+    padding: 0; 
+    margin: 0; 
+    margin-top:-67px;
+    padding-right:5cm;
+}
+.kart6{
+     border: 2px solid rgb(250, 79, 0); 
+    width: 300px;
+    height: 100px;
+    padding: 30px;
+    position: absolute;
+    top:200px;
+    left:656px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+    background-color: aliceblue;
+}
+.karth6{
+   font-size: larger;
+    padding: 0; 
+    margin: 0; 
+    margin-top:-67px;
+    padding-right:5cm;
+}
+.karth6::before{
+    content: "*";
+}
 .iki {
     border: 2px solid rgb(250, 79, 0);  
     width: 1100px;
@@ -165,14 +226,14 @@ main::selection{
     flex-direction: column;
     align-items: center;
     justify-content: center;   
-    z-index:10px ;
+    background-color: aqua;
     
 }
 .h22 {
-  font-size: larger;
-    padding: 0; 
-    margin: 0; 
-    margin-top: -410px;
+    display: flex;
+   position: absolute;
+    font-size: larger;
+    top: 590px;
 }
 .h22::before{
     content: "*";
@@ -189,6 +250,67 @@ main::selection{
     align-items: center;
     justify-content: center;
     background-color: aqua;
+}
+.cards{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-items: center;
+}
+.card1{
+    border: 2px solid rgb(250, 79, 0); 
+    width: 280px;
+    height:200px;
+    position: absolute;
+    top:50px;
+    left:40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+    background-color: aliceblue;
+}
+.m21{
+    position: absolute;
+    top:10px;
+    left:24px;
+
+}
+.card2{
+      border: 2px solid rgb(250, 79, 0); 
+    width: 280px;
+    height:200px;
+    position: absolute;
+    top:50px;
+    left:358px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+    background-color: aliceblue;
+}
+.m22{
+ position: absolute;
+top:10px;
+left:23px;
+}
+.card3{
+      border: 2px solid rgb(250, 79, 0); 
+    width: 280px;
+    height:200px;
+    position: absolute;
+    top:50px;
+    left:680px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+    background-color: aliceblue;
+}
+.m23{
+position: absolute;
+top:10px;
+left:23px;
 }
 .h23{
     font-size: larger;
